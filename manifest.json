@@ -1030,10 +1030,6 @@
       "sha1": "531d8efd8b32688bd54ac94622465ab826204c1a"
     },
     {
-      "path": "Updater.exe",
-      "sha1": "dbed99e09621b701de4cedd6f89c45b02d15a98a"
-    },
-    {
       "path": "vcruntime140_cor3.dll",
       "sha1": "3d2998a27d164dd7cc3bc7d3eca08acf89a0ee42"
     },
