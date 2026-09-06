@@ -163,7 +163,7 @@
     },
     {
       "path": "Nelian.dll",
-      "sha1": "51401d5607b3a841aed0b562c162d215b9a59f51"
+      "sha1": "41c7cb6fe3f493a4c36ea6c89a48666060893126"
     },
     {
       "path": "Nelian.dll.config",
@@ -175,7 +175,7 @@
     },
     {
       "path": "Nelian.pdb",
-      "sha1": "bf1091d83753b73ffbd0b02a0aea43a3c1c0586a"
+      "sha1": "de6bc343d4128d3a2a09bb493b13069387a32678"
     },
     {
       "path": "Nelian.runtimeconfig.json",
