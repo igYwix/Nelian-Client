@@ -1,3 +1,0 @@
-old data file
-No longer supported
-FAX:https://raw.githubusercontent.com/FixzyXqw/Nelian-Client/refs/heads/main/FAX.Update
