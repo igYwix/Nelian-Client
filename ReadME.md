@@ -20,7 +20,7 @@ Following the first official release of Nelian Client, the classes in this repos
 
 This repository is licensed under the [PolyForm Noncommercial License 1.0.0](./LICENSE).
 
-You may view, study, and use the source code for noncommercial purposes only, including personal use, research, and education. Commercial use, redistribution as part of a commercial product, or building a competing service is not permitted without explicit written permission from Nelian. See [LICENSE](./LICENSE) for the full terms.
+You may view, study, and use the source code for noncommercial purposes only, including personal use, research, and education. Commercial use, redistribution as part of a commercial product, or building a competing service is not permitted without explicit written permission from Nelian. See [LICENSE](./LICENSE.md) for the full terms.
 
 ## Launcher & Privacy
 
