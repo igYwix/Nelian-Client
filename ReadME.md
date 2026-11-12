@@ -1,38 +1,56 @@
 # Nelian Client
 
-**Nelian Client** is a lightweight, performance-focused Minecraft client and launcher.
+**A fast, clean Minecraft client and launcher.**
+
+Nelian is a lightweight Minecraft client built for players who just want to play. It focuses on performance and comfort, and nothing more.
 
 ## Why Nelian?
 
-There are Minecraft clients with larger teams, more resources, and longer feature lists than Nelian, and that's completely fine. Nelian isn't trying to compete on scale; it simply follows a different approach.
+Most big clients come with ads, extra bloat, and features that exist mainly to make money. Nelian is different.
 
-We believe software should serve the people who use it, without unnecessary features, intrusive ads, or anything designed primarily to extract value from the user. Every feature in Nelian exists for a reason: to make Minecraft more enjoyable, more comfortable, or more performant. Nelian isn't built to generate revenue. It's built to offer a clean, fast, and enjoyable way to play Minecraft.
+- **Made for players, not for profit.** Nelian is not built to earn money.
+- **No ads.** Never.
+- **Every feature has a reason.** If it doesn't make Minecraft more fun, more comfortable, or faster, it doesn't belong here.
+- **Light and fast.** Built with performance in mind from the start.
 
-## Repository Scope
+## Your Privacy Comes First
 
-This repository contains the source code for custom classes developed and modified specifically for Nelian Client, including client-side features, performance optimizations, rendering improvements, and other custom systems.
+We know a launcher asks for your trust, so here is exactly what happens with your data:
 
-> **Note:** This repository does not contain the complete source code of Minecraft. It includes only the classes created, modified, or adapted for Nelian Client, and does not represent Minecraft's full source.
+- **Your account data stays on your device.** This includes Microsoft accounts, offline accounts, and usernames.
+- **Nothing is sent to us.** Your account data only goes to Microsoft's and Minecraft's own APIs, like any normal login.
+- **One small exception:** your UUID is sent to [mc-heads.net](https://mc-heads.net/avatar/) so your skin's head can be shown in the Account Manager.
+- **Only two connections besides that:** the launcher contacts the Nelian GitLab repository to check for updates, and mc-heads.net to show your profile.
 
-Following the first official release of Nelian Client, the classes in this repository will no longer receive updates. The repository will remain publicly available for reference and transparency, but the source files will not be actively maintained afterward.
+## Source-Available and Transparent
+
+You don't have to just trust us you can read the code and build the launcher yourself. The original source code written for Nelian Launcher is public on GitLab (read-only, for educational purposes). It contains Launcher side features, performance improvements, and the rendering system.
+
+It does not include Minecraft's code, third-party libraries (like CmlLib), or Nelian's security systems.
+
+You are free to compile and use it for yourself. You may also redistribute the software or your modified versions, provided you do so **for noncommercial purposes only** and in full compliance with the PolyForm Noncommercial License 1.0.0. **Any build you compile or redistribute is used entirely at your own risk. We provide no warranty and accept no liability for any damages or issues arising from self-compiled or third-party distributed builds.**
+
+## Built With
+
+- [CmlLib.Core](https://github.com/CmlLib/CmlLib.Core) for Minecraft libraries
+- [CmlLib.Core.Auth.Microsoft](https://github.com/CmlLib/CmlLib.Core.Auth.Microsoft) for Microsoft OAuth
+
+Huge thanks to these projects. Third-party code keeps its own license.
 
 ## License
 
-This repository is licensed under the [PolyForm Noncommercial License 1.0.0](./LICENSE).
+- [LICENSE](./LICENSE)
 
-You may view, study, and use the source code for noncommercial purposes only, including personal use, research, and education. Commercial use, redistribution as part of a commercial product, or building a competing service is not permitted without explicit written permission from Nelian. See [LICENSE](./LICENSE.md) for the full terms.
+The original code written for Nelian Client in this repository is licensed under the **PolyForm Noncommercial License 1.0.0**.
 
-## Launcher & Privacy
+You may use, modify, and distribute it for **noncommercial purposes only**. Commercial use is not permitted.
 
-The launcher component of this project relies primarily on the [CmlLib](https://github.com/CmlLib) project.
+Required Notice: Copyright (c) 2026 Nelian / Ywix
 
+Full license text: https://polyformproject.org/licenses/noncommercial/1.0.0
 
-The launcher component of this project relies primarily on the [Nelian Updater](https://github.com/FixzyXqw/NelianUpdater) project for managing updates.
-
-Microsoft accounts, usernames, and UUID information are never sent to or stored on any external server, aside from Microsoft's own servers. Both offline and online account data are stored locally on your device.
-
-To maintain transparency, the custom source code developed specifically for Nelian is published publicly on GitHub in read-only form for educational purposes. Proprietary Nelian security systems, third-party libraries (including CmlLib), and any Minecraft source code are **not** included in this repository.
+**No Liability:** As far as the law allows, the software comes as is, without any warranty or condition, and the licensor will not be liable to you for any damages arising out of these terms or the use or nature of the software, under any kind of legal claim. [citation:2]
 
 ## Disclaimer
 
-Minecraft is a trademark of Mojang Studios. Nelian Client is an independent project, developed separately from, and not affiliated with, endorsed by, or sponsored by, Mojang Studios or Microsoft.
+Minecraft is a trademark of Mojang Studios. Nelian Client is an independent project. It is not affiliated with, endorsed by, or sponsored by Mojang Studios or Microsoft.
